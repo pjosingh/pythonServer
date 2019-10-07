@@ -9,4 +9,5 @@
 * sudo docker-compose up
 
 ### References
-[Link](https://github.com/jakewright/tutorials/blob/master/home-automation/02-device-registry/device_registry/__init__.py)
+* [Jake's blog](https://github.com/jakewright/tutorials/blob/master/home-automation/02-device-registry/device_registry/__init__.py)
+* Install [docker](https://docs.docker.com/install/linux/docker-ce/debian/)
