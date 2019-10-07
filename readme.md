@@ -7,3 +7,6 @@
 ### Steps to run 
 * sudo docker-compose build
 * sudo docker-compose up
+
+### References
+[Link](https://github.com/jakewright/tutorials/blob/master/home-automation/02-device-registry/device_registry/__init__.py)
