@@ -1,3 +1,0 @@
-<table style='width:100%;background-color:#ede9e9;border:1px;'><tr><td>312.3399963378906</td><td>682.8800048828125</td></table>
-<table style='width:100%;background-color:#ede9e9;border:1px;'><tr><td>312.3399963378906</td><td>683.33837890625</td></table>
-<table style='width:100%;background-color:#ede9e9;border:1px;'><tr><td>312.3399963378906</td><td>683.2150268554688</td></table>

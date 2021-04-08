@@ -8,6 +8,7 @@ from flask_cors import CORS
 from device_registry.History import History
 from device_registry.GoodOrBad import GoodOrBad
 from device_registry.DeviceList import DeviceList
+from device_registry.RegisterNewTracker import RegisterNewTracker
 
 app = Flask(__name__)
 CORS(app)
@@ -18,12 +19,6 @@ def get_db():
     db = getattr(g,'_database', None)
     if db is None:
         db = g._database = shelve.open("devices.db")
-    return db
-
-def get_history_db():
-    db = getattr(g, '_database', None)
-    if db is None:
-        db = g._database = shelve.open("history.db")
     return db
 
 @app.teardown_appcontext
@@ -43,3 +38,4 @@ def hello():
 api.add_resource(DeviceList, '/devices')
 api.add_resource(History, '/history')
 api.add_resource(GoodOrBad, '/gb')
+api.add_resource(RegisterNewTracker, '/register')
